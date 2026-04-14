@@ -1,3 +1,5 @@
+*Read this in [English](README_en.md).*
+
 # Olá, eu sou o Marcus 👋
 
 ### 📊 Data Scientist | ML Engineering | Geospatial Intelligence
