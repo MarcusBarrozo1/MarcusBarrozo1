@@ -1,4 +1,4 @@
-*Read this in [English](README_en.md).*
+*Read this in [Portuguese](README.md).*
 
 # Hello, I'm Marcus 👋
 
