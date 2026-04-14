@@ -32,19 +32,19 @@ Análise espacial, processamento de imagens e automação GIS.
 
 ### 🚀 Projetos em Destaque
 
-#### 🤖 [Multi-Cloud RAG Assistant (Domínio AgTech)] (https://github.com/MarcusBarrozo1/geo_rag_assistant)
+#### 🤖 [Multi-Cloud RAG Assistant (Domínio AgTech)](https://github.com/MarcusBarrozo1/geo_rag_assistant)
 *Um ecossistema de LLMOps rodando localmente e na nuvem.*
 * **O que é:** Um microsserviço de Inteligência Artificial Generativa construído do zero. Ele atua como um assistente que cruza telemetria SQL em tempo real com busca vetorial de documentos densos.
 * **Stack:** Python, Docker, PostgreSQL, ChromaDB, HuggingFace Embeddings, Groq API (Llama 3), Streamlit.
 * **Impacto:** Demonstra capacidade de arquitetar sistemas RAG resilientes (com fallback de APIs), ingestão de dados e criação de interfaces interativas para o usuário final.
 
-#### 📈 [Pipeline de Machine Learning & Classificação Preditiva] (https://github.com/MarcusBarrozo1/portfolio_agtech_iot) - (https://github.com/MarcusBarrozo1/portfolio_ml_agtech).
+#### 📈 [Pipeline de Machine Learning & Classificação Preditiva](https://github.com/MarcusBarrozo1/portfolio_agtech_iot) - [Repo-2](https://github.com/MarcusBarrozo1/portfolio_ml_agtech).
 *Modelagem preditiva.*
 * **O que é:** Pipeline de tratamento de dados (Data Wrangling) e treinamento de modelos de classificação utilizando algoritmos clássicos (Random Forest, etc).
 * **Stack:** Pandas, Scikit-Learn, Matplotlib/Seaborn.
 * **Impacto:** Foco na limpeza de dados reais, feature engineering e validação rigorosa de modelos através de métricas de negócio.
 
-#### 🗺️ [Geospatial Automation & QGIS Cloud Tools] (https://github.com/MarcusBarrozo1/meca-qgis-plugin)
+#### 🗺️ [Geospatial Automation & QGIS Cloud Tools](https://github.com/MarcusBarrozo1/meca-qgis-plugin)
 *Engenharia de software aplicada ao contexto geoespacial.*
 * **O que é:** Desenvolvimento de soluções backend/plugins em Python para automatizar fluxos de trabalho espaciais, incluindo sincronização de projetos em nuvem (Drive) e refatoração de algoritmos complexos (como o SAFER).
 * **Impacto:** Redução de tempo operacional e otimização de rotinas para times de analistas.
