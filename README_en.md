@@ -2,7 +2,7 @@
 
 # Hello, I'm Marcus 👋
 
-### 📊 Data Scientist | ML Engineer | Geospatial Intelligence
+### 📊 Data Engineer | Data Scientist | Geospatial Intelligence
 
 I am a data professional focused on building end-to-end solutions, bridging analytical modeling with software development. 
 
@@ -32,6 +32,12 @@ Spatial analysis, image processing, and GIS automation.
 
 ### 🚀 Featured Projects
 
+### 🛰️ [Spatial Agentic RAG (Multi-Agent Orchestration & GIS)](https://github.com/MarcusBarrozo1/spatial-agentic-api)
+*An Agentic AI orchestration pipeline to automate agricultural credit risk analysis.*
+* **What it is:** A microservices ecosystem where an LLM acts as the orchestrator (State Machine), reasoning over user demands and autonomously triggering geospatial Computer Vision pipelines. The Agent makes decisions and dispatches POST requests to segment crop fields and calculate vegetative health (NDVI).
+* **Stack:** Python, LangGraph (StateGraph/Tool Calling), FastAPI, Docker, Groq API (Llama 3), U-Net (Keras), Rasterio/NumPy.
+* **Impact:** Demonstrates strong capabilities in MLOps and Software Engineering: training neural networks from scratch (U-Net for multispectral segmentation), containerizing APIs for inference (FastAPI/Docker), and non-linear routing of AI agents to eliminate manual operation bottlenecks in the AgTech sector.
+
 #### 🤖 [Multi-Cloud RAG Assistant (AgTech Domain)](https://github.com/MarcusBarrozo1/geo_rag_assistant)
 *An LLMOps ecosystem running locally and in the cloud.*
 * **What it is:** A Generative Artificial Intelligence microservice built from scratch. It acts as an assistant that cross-references real-time SQL telemetry with vector searches of dense documents.
@@ -44,10 +50,14 @@ Spatial analysis, image processing, and GIS automation.
 * **Stack:** Pandas, Scikit-Learn, Matplotlib/Seaborn.
 * **Impact:** Focused on cleaning real-world data, feature engineering, and rigorous model validation through business metrics.
 
-#### 🗺️ [Geospatial Automation & QGIS Cloud Tools](https://github.com/MarcusBarrozo1/meca-qgis-plugin)
-*Software engineering applied to the geospatial context.*
-* **What it is:** Development of backend solutions/Python plugins to automate spatial workflows, including cloud project synchronization (Drive) and refactoring of complex algorithms (like SAFER).
-* **Impact:** Reduction of operational time and optimization of routines for analyst teams.
+#### 🗺️ [Geospatial Automation - MVP & Roadmap Arch](https://github.com/MarcusBarrozo1/meca-qgis-plugin)
+*Software Engineering and Data Science applied to water resources management.*
+* **What it is:** A Minimum Viable Product (MVP) in Python/QGIS that translated the SAFER scientific algorithm (originally in R) to estimate agricultural water consumption via energy balance.
+* **Engineering Vision & Roadmap:** This repository focuses not only on legacy code but on the ability to audit processes and design scalable architectures. The documented refactoring roadmap includes:
+  * Decoupling visual processing (QGIS/PyQt) into pure vectorized RAM routines via `NumPy`.
+  * Transitioning to the *Cloud-Native Geospatial* paradigm (STAC/COGs), eliminating the need to download orbital scenes.
+  * Territorial Governance: Building spatial relational pipelines (*Spatial Join*) between Computer Vision models (Crop Boundary) and legal land tenure databases (CAR).
+* **Impact:** Demonstrates strong technical maturity to inherit complex scientific logics, identify structural bottlenecks (such as disk I/O), and architect the migration to modern, autonomous data infrastructures.
 
 ---
 
