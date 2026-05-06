@@ -33,7 +33,7 @@ Análise espacial, processamento de imagens e automação GIS.
 ### 🚀 Projetos em Destaque
 
 #### 🛰️ [Spatial Agentic RAG (Orquestração Multi-Agente & GIS)](https://github.com/MarcusBarrozo1/spatial-agentic-api)
-* Um pipeline de orquestração Agentic AI para automatizar análises de risco de crédito agrícola.*
+*Um pipeline de orquestração Agentic AI para automatizar análises de risco de crédito agrícola.*
 *   **O que é:** Um ecossistema de microsserviços onde um LLM atua como orquestrador (Máquina de Estado), raciocinando sobre as demandas do usuário e acionando autonomamente pipelines de Visão Computacional geoespacial. O Agente toma decisões e dispara requisições POST para segmentar talhões e calcular saúde vegetativa (NDVI).
 *   **Stack:** Python, LangGraph (StateGraph/Tool Calling), FastAPI, Docker, Groq API (Llama 3), U-Net (Keras), Rasterio/NumPy.
 *   **Impacto:** Demonstra forte capacidade em MLOps e Engenharia de Software: treinamento de redes neurais do zero (U-Net para segmentação multiespectral), conteinerização de APIs para inferência (FastAPI/Docker) e roteamento não-linear de agentes de IA para eliminar gargalos de operação manual no setor AgTech.
